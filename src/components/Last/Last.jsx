@@ -7,19 +7,20 @@ const Last = () => {
   <div class="container mx-auto">
     <div class="-mx-4 flex flex-wrap">
       <div class="w-full px-4 sm:w-2/3 lg:w-3/12">
-        <div class="mb-10 w-full">
+        <div class="mb-10 w-full mb-32 pl-7">
           <a href="javascript:void(0)" class="mb-6 inline-block max-w-[160px]">
             <img
-              src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo.svg"
+              src="https://i.ibb.co/PQrjX3X/Untitled-design-11.png"
               alt="logo"
               class="max-w-full"
             />
           </a>
+          <h3 className='text-xl'>BakeBy
+          </h3>
           <p class="text-body-color mb-7 text-base">
-            Sed ut perspiciatis undmnis is iste natus error sit amet voluptatem
-            totam rem aperiam.
+            Best fast food is here
           </p>
-          <p class="text-dark flex items-center text-sm font-medium">
+          <p class="text-dark flex items-center text-sm font-medium mb-28">
             <span class="text-primary mr-3">
               <svg
                 width="19"
@@ -38,7 +39,7 @@ const Last = () => {
                 />
               </svg>
             </span>
-            <span>+012 (345) 678 99</span>
+            <span>+880 1785030648</span>
           </p>
         </div>
       </div>
@@ -51,7 +52,7 @@ const Last = () => {
                 href="javascript:void(0)"
                 class="text-body-color hover:text-primary mb-2 inline-block text-base leading-loose"
               >
-                SaaS Development
+                Our Development
               </a>
             </li>
             <li>
@@ -90,7 +91,7 @@ const Last = () => {
                 href="javascript:void(0)"
                 class="text-body-color hover:text-primary mb-2 inline-block text-base leading-loose"
               >
-                About TailGrids
+                About BakeBy
               </a>
             </li>
             <li>
@@ -224,7 +225,7 @@ const Last = () => {
               </svg>
             </a>
           </div>
-          <p class="text-body-color text-base">&copy; 2025 TailGrids</p>
+          <p class="text-body-color text-base">&copy; 2023 BakeBy</p>
         </div>
       </div>
     </div>
