@@ -9,6 +9,7 @@ import Tastimonial from "./components/Tastimonial/Tastimonial";
 import Contact from "./components/Contact/Contact";
 
 
+
 function App() {
   return (
     <div>
@@ -18,7 +19,8 @@ function App() {
       <Food />
       <Footer />
       <Tastimonial/>
-      <Contact></Contact>
+      <Contact>
+      </Contact>
       <Last/>
     </div>
   );

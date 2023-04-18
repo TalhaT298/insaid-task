@@ -43,7 +43,7 @@ export const Navbar = () => {
       {/* button */}
       <button className="hidden text-white bg-black rounded-full md:flex">
         <IoMdContact size={25} className="mr-2" />
-        Contact Us
+        <a href="/ok" >Contact Us</a>
       </button>
       {/* mobile menu */}
       {/* overly */}
