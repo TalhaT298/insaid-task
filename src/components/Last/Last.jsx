@@ -3,14 +3,14 @@ import React from 'react';
 const Last = () => {
     return (
         // <!-- ====== Footer Section Start -->
-<footer class="relative z-10 bg-white pt-20 pb-10 lg:pt-[120px] lg:pb-20 pl-16">
+<footer class="relative z-10 bg-gray-300 pt-20 pb-10 lg:pt-[120px] lg:pb-20 pl-16">
   <div class="container mx-auto">
     <div class="-mx-4 flex flex-wrap">
       <div class="w-full px-4 sm:w-2/3 lg:w-3/12">
         <div class="mb-10 w-full mb-32 pl-7">
           <a href="javascript:void(0)" class="mb-6 inline-block max-w-[160px]">
             <img
-              src="https://i.ibb.co/PQrjX3X/Untitled-design-11.png"
+              src="https://i.ibb.co/Svp01pw/Untitled-design-13.png"
               alt="logo"
               class="max-w-full"
             />
@@ -225,7 +225,7 @@ const Last = () => {
                 />
               </svg>
             </span>
-            <span>+880 1785030648</span>
+            <span className=''>+880 1785030648</span>
           </p>
         </div>
       </div>

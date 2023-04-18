@@ -6,6 +6,8 @@ import Hero from "./components/Hero/Hero";
 import { Navbar } from "./components/Navbar/Navbar";
 import Last from "./components/Last/Last";
 import Tastimonial from "./components/Tastimonial/Tastimonial";
+import Contact from "./components/Contact/Contact";
+
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
       <Food />
       <Footer />
       <Tastimonial/>
+      <Contact></Contact>
       <Last/>
     </div>
   );

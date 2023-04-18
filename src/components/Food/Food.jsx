@@ -21,7 +21,7 @@ const Food = () => {
   };
   return (
     <div className=" max-w-[1640px] mx-auto px-4 py-12">
-      <h1 className="text-4xl font-bold text-center text-stone-950 ">
+      <h1 className="text-4xl font-bold text-center pb-6 text-stone-950 ">
         {" "}
         Top Rated Menu Items
       </h1>
@@ -29,7 +29,7 @@ const Food = () => {
       <div className="flex flex-col justify-between lg:flex-row">
         {/* item filter */}
         <div>
-          <p className="font-bold text-gray-700 ">Filter Type</p>
+          <p className="font-bold text-gray-700 pb-4">Filter Type</p>
           <div className="flex flex-wrap justify-between ">
             <button
               onClick={() => setFoods(data)}
@@ -64,8 +64,8 @@ const Food = () => {
           </div>
         </div>
         {/* price filter */}
-        <div>
-          <p className="font-bold text-gray-700 ">Filter Price</p>
+        {/* <div>
+          <p className="font-bold text-gray-700 pb-4">Filter Price</p>
           <div className=" flex justify-between max-w-[390px] w-full">
             <button
               onClick={() => filterPrice("$")}
@@ -92,7 +92,7 @@ const Food = () => {
               $$$$
             </button>
           </div>
-        </div>
+        </div> */}
       </div>
       {/* Foods */}
       <div className="grid grid-cols-2 gap-6 pt-4 lg:grid-cols-4">
