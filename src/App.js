@@ -5,6 +5,7 @@ import HeadlineCard from "./components/HeadLineCard/HeadlineCard";
 import Hero from "./components/Hero/Hero";
 import { Navbar } from "./components/Navbar/Navbar";
 import Last from "./components/Last/Last";
+import Tastimonial from "./components/Tastimonial/Tastimonial";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <HeadlineCard />
       <Food />
       <Footer />
+      <Tastimonial/>
       <Last/>
     </div>
   );

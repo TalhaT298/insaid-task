@@ -4,7 +4,7 @@ import { categories } from "../../Data/data";
 const Footer = () => {
   return (
     <div className=" max-w-[1660px px-4 py-12]">
-      <h1 className="text-4xl font-bold text-center text-orange-600 ">
+      <h1 className="text-4xl font-bold text-center text-stone-950 ">
         Top Rated Menu Items
       </h1>
       <div className="grid grid-cols-2 gap-6 py-6 md:grid-cols-4">
