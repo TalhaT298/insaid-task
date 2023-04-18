@@ -22,7 +22,7 @@ export const Navbar = () => {
         </div>
         <div className="p-2 text-2xl md:text-3xl lg:text-4xl">
           <h1>
-            Best <span className="font-bold ">Eats</span>
+            Bake <span className="font-bold ">By</span>
           </h1>
         </div>
         <div className=" hidden lg:flex items-center bg-gray-200 rounded-full p-1 text-[14px]">
